@@ -191,7 +191,7 @@ export const api = {
     request('/thermal-cvd/simulate-run', { method: 'POST' }),
 
   addManualExperiment: (payload) => 
-    request('/thermal-cvd/add-experiment', {
+    request('/thermal-cvd/submit-experiment', {
       method: 'POST',
       body: JSON.stringify(payload)
     }),
